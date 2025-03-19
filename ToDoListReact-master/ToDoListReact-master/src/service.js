@@ -10,7 +10,7 @@ export default {
   getTasks: async () => {
     try{
       const result = await axios.get(`${apiUrl}/items`)
-      console.log('ששששששששש');
+      console.log('ששששששששש',result);
       return result.data;
     }
    catch{
