@@ -9,6 +9,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddEndpointsApiExplorer();  
 builder.Services.AddSwaggerGen(); 
 
+
+
+
 // הוספת CORS
 builder.Services.AddCors(options =>
 {
@@ -16,7 +19,8 @@ builder.Services.AddCors(options =>
     {
           policy.WithOrigins(
            // "http://localhost:3000",  
-            "https://pro4client.onrender.com")
+            "https://pro4client.onrender.com"
+            )
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials(); 

@@ -521,3 +521,5 @@ C:\Users\חני שפירא\Desktop\TodoApi\bin\Debug\net9.0\package.json
 C:\Users\חני שפירא\Desktop\TodoApi\bin\Debug\net9.0\ToDoListReact-master\package-lock.json
 C:\Users\חני שפירא\Desktop\TodoApi\bin\Debug\net9.0\ToDoListReact-master\ToDoListReact-master\package-lock.json
 C:\Users\חני שפירא\Desktop\TodoApi\bin\Debug\net9.0\ToDoListReact-master\ToDoListReact-master\package.json
+C:\Users\חני שפירא\Desktop\TodoApi\bin\Debug\net9.0\ToDoListReact-master\ToDoListReact-master\build\asset-manifest.json
+C:\Users\חני שפירא\Desktop\TodoApi\obj\Debug\net9.0\TodoApi.sourcelink.json
