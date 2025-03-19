@@ -13,7 +13,7 @@ function App() {
   async function getTodos() {
     console.log("Fetching todos..."); // בדיקה
     const todos = await service.getTasks();
-  //  console.log("Response from server:", todos); // בדיקה
+   console.log("Response from server:", todos); // בדיקה
     setTodos(Array.isArray(todos) ? todos : []);
   }
   
