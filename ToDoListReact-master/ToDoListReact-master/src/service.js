@@ -7,6 +7,7 @@ const apiUrl = process.env.REACT_APP_API_URL;
 
 export default {
   getTasks: async () => {
+    console.log('ששששששששש');
     const result = await axios.get(`${apiUrl}/items`)    
     return result.data;
   },
