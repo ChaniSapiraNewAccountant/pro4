@@ -5,11 +5,6 @@ function App() {
   const [newTodo, setNewTodo] = useState("");
   const [todos, setTodos] = useState([]);
 
-  // async function getTodos() {
-  //   const todos = await service.getTasks();
-  //   console.log("Response from server:", todos); // בדיקה
-  //   setTodos(todos);
-  // }
   async function getTodos() {
     console.log("Fetching todos..."); // בדיקה
     const todos = await service.getTasks();
